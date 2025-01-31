@@ -4,7 +4,6 @@ import time
 import faiss
 import pickle
 from dotenv import load_dotenv
-
 from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
