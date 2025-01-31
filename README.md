@@ -12,47 +12,23 @@ RockyBot is an AI-powered **news research tool** that allows users to extract co
 ✅ **Fully automated UI** using **Streamlit**  
 
 ---
+## Installation
 
-## 📦 Installation  
+1.Clone this repository to your local machine using:
 
-### **1️⃣ Install Dependencies**  
-Run the following command to install all required Python packages:  
 ```bash
-pip install streamlit langchain langchain-community langchain-openai faiss-cpu sentence-transformers unstructured openai tiktoken dotenv
-**🔹 Step 2: Install Dependencies**
+  git clone https://github.com/codebasics/langchain.git
+```
+2.Navigate to the project directory:
 
-Make sure you have Python **3.8+** installed. Then, install the required packages:
+```bash
+  cd 2_news_research_tool_project
+```
+3. Install the required dependencies using pip:
 
-bash
-
-CopyEdit
-
-pip install -r requirements.txt
-
-**🔹 Step 3: Set Up OpenAI API Key**
-
-Create a **.env** file in the project root and add your **OpenAI API key**:
-
-makefile
-
-CopyEdit
-
-OPENAI_API_KEY=your_openai_api_key
-
-Or set it manually in your terminal:
-
-bash
-
-CopyEdit
-
-export OPENAI_API_KEY="your_openai_api_key"
-
-**🔹 Step 4: Run the Streamlit App**
-
-bash
-
-CopyEdit
-streamlit run app.py
+```bash
+  pip install -r requirements.txt
+```
 
 **⚙️ Tech Stack**
 
